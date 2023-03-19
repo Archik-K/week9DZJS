@@ -7,8 +7,11 @@ const readarticlesMermaid = 137;
 const watchedyoutubeMermaid = 201;
 /* складываем все значения. */
 console.log(
-  correspondenceMermaid +
-    likephotoMermaid +
-    readarticlesMermaid +
-    watchedyoutubeMermaid
+  `Русалка прокрастинировала  ${
+    (correspondenceMermaid +
+      likephotoMermaid +
+      readarticlesMermaid +
+      watchedyoutubeMermaid) /
+    60
+  } часов.`
 );
